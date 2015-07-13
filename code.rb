@@ -16,8 +16,3 @@ def minimum_coins(num)
     "Would be " + "#{coin_purse.size}: " + "#{coin_purse.join(', ')}."
   end
 end
-
-puts minimum_coins(251)
-puts minimum_coins(245)
-puts minimum_coins(11)
-puts minimum_coins(127)
