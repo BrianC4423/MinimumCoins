@@ -10,6 +10,7 @@ def minimum_coins(num)
     num = num % coin
   end
   coin_purse = coin_purse.split
+  
   if coin_purse.size == 2
     "Would be 2: " + "#{coin_purse.join(' and ')}."
   else
